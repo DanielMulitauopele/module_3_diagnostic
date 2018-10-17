@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-10-17T10:46:48-06:00">2018-10-17T10:46:48-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-10-17T10:52:18-06:00">2018-10-17T10:52:18-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         11.23
+         6.02
        </span>
     </span> hits/line)
   </h2>
@@ -63,7 +63,7 @@
       <tr>
         <td class="strong"><a href="#3e3036944927fcbd88aa9c3aa24f83468fe95084" class="src_link" title="app/controllers/search_controller.rb">app/controllers/search_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
+        <td>5</td>
         <td>3</td>
         <td>3</td>
         <td>0</td>
@@ -97,17 +97,17 @@
         <td>8</td>
         <td>8</td>
         <td>0</td>
-        <td>25.4</td>
+        <td>12.9</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#65f4a72198783a8d46827fa1a8d19d5047ea28b1" class="src_link" title="app/models/station_search.rb">app/models/station_search.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>12</td>
+        <td>11</td>
         <td>6</td>
         <td>6</td>
         <td>0</td>
-        <td>8.0</td>
+        <td>4.7</td>
       </tr>
       
     </tbody>
@@ -161,7 +161,7 @@
       <tr>
         <td class="strong"><a href="#3e3036944927fcbd88aa9c3aa24f83468fe95084" class="src_link" title="app/controllers/search_controller.rb">app/controllers/search_controller.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
+        <td>5</td>
         <td>3</td>
         <td>3</td>
         <td>0</td>
@@ -227,7 +227,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         17.94
+         9.39
        </span>
     </span> hits/line)
   </h2>
@@ -259,17 +259,17 @@
         <td>8</td>
         <td>8</td>
         <td>0</td>
-        <td>25.4</td>
+        <td>12.9</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#65f4a72198783a8d46827fa1a8d19d5047ea28b1" class="src_link" title="app/models/station_search.rb">app/models/station_search.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>12</td>
+        <td>11</td>
         <td>6</td>
         <td>6</td>
         <td>0</td>
-        <td>8.0</td>
+        <td>4.7</td>
       </tr>
       
     </tbody>
@@ -529,16 +529,10 @@
         <li class="never" data-hits="" data-linenumber="4">
           
           
-          <code class="ruby">    # require &quot;pry&quot;; binding.pry</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby">end</code>
@@ -667,32 +661,32 @@
           <code class="ruby">  def initialize(info)</code>
         </li>
       
-        <li class="covered" data-hits="40" data-linenumber="5">
-          <span class="hits">40</span>
+        <li class="covered" data-hits="20" data-linenumber="5">
+          <span class="hits">20</span>
           
           <code class="ruby">    @name = info[:station_name]</code>
         </li>
       
-        <li class="covered" data-hits="40" data-linenumber="6">
-          <span class="hits">40</span>
+        <li class="covered" data-hits="20" data-linenumber="6">
+          <span class="hits">20</span>
           
           <code class="ruby">    @address = info[:street_address]</code>
         </li>
       
-        <li class="covered" data-hits="40" data-linenumber="7">
-          <span class="hits">40</span>
+        <li class="covered" data-hits="20" data-linenumber="7">
+          <span class="hits">20</span>
           
           <code class="ruby">    @fuel_types = info[:fuel_type_code]</code>
         </li>
       
-        <li class="covered" data-hits="40" data-linenumber="8">
-          <span class="hits">40</span>
+        <li class="covered" data-hits="20" data-linenumber="8">
+          <span class="hits">20</span>
           
           <code class="ruby">    @distance = info[:distance]</code>
         </li>
       
-        <li class="covered" data-hits="40" data-linenumber="9">
-          <span class="hits">40</span>
+        <li class="covered" data-hits="20" data-linenumber="9">
+          <span class="hits">20</span>
           
           <code class="ruby">    @access_times = info[:access_days_time]</code>
         </li>
@@ -755,7 +749,7 @@
         <li class="covered" data-hits="2" data-linenumber="5">
           <span class="hits">2</span>
           
-          <code class="ruby">    results = JSON.parse(conn.get(&quot;/api/alt-fuel-stations/v1/nearest.json?location=80203&amp;fuel_type=E85,ELEC&amp;api_key=#{ENV[&#39;API_KEY&#39;]}&quot;).body, symbolize_names: true)</code>
+          <code class="ruby">    results = JSON.parse(conn.get(&quot;/api/alt-fuel-stations/v1/nearest.json?location=80203&amp;limit=10&amp;fuel_type=E85,ELEC&amp;api_key=#{ENV[&#39;API_KEY&#39;]}&quot;).body, symbolize_names: true)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
@@ -770,8 +764,8 @@
           <code class="ruby">    @stations = results[:fuel_stations].map do |station_info|</code>
         </li>
       
-        <li class="covered" data-hits="40" data-linenumber="8">
-          <span class="hits">40</span>
+        <li class="covered" data-hits="20" data-linenumber="8">
+          <span class="hits">20</span>
           
           <code class="ruby">      Station.new(station_info)</code>
         </li>
@@ -785,16 +779,10 @@
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">    # require &quot;pry&quot;; binding.pry</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">end</code>
