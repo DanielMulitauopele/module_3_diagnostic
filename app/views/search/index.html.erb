@@ -2,7 +2,7 @@
 
 <div class="station">
   <% @search_results.stations.each do |station| %>
-    <ul>
+    <ul class="station-details">
       <li class: "name"><%= station.name %></li>
       <li class: "address"><%= station.address %></li>
       <li class: "fuel_types"><%= station.fuel_types %></li>
