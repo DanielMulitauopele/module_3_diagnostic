@@ -25,13 +25,32 @@
       "/Users/danielmulitauopele/Turing/3module/challenges/alt-fuel-finder/app/models/station_search.rb": [
         1,
         1,
+        null,
+        10,
         2,
         null,
-        2,
         null,
-        2,
-        20,
+        1,
         null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/danielmulitauopele/Turing/3module/challenges/alt-fuel-finder/app/services/nrel_service.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null
       ],
@@ -40,11 +59,11 @@
         1,
         null,
         1,
-        20,
-        20,
-        20,
-        20,
-        20,
+        10,
+        10,
+        10,
+        10,
+        10,
         null,
         null
       ],
@@ -53,6 +72,6 @@
         0
       ]
     },
-    "timestamp": 1539795138
+    "timestamp": 1539795757
   }
 }
