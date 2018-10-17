@@ -18,7 +18,12 @@
       "/Users/danielmulitauopele/Turing/3module/challenges/alt-fuel-finder/app/controllers/search_controller.rb": [
         1,
         1,
+        1,
         null,
+        null
+      ],
+      "/Users/danielmulitauopele/Turing/3module/challenges/alt-fuel-finder/app/models/station_search.rb": [
+        1,
         null,
         null
       ],
@@ -27,6 +32,6 @@
         0
       ]
     },
-    "timestamp": 1539790322
+    "timestamp": 1539790774
   }
 }
