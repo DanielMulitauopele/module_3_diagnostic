@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-10-17T10:05:56-06:00">2018-10-17T10:05:56-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-10-17T10:15:19-06:00">2018-10-17T10:15:19-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -93,7 +93,7 @@
       <tr>
         <td class="strong"><a href="#65f4a72198783a8d46827fa1a8d19d5047ea28b1" class="src_link" title="app/models/station_search.rb">app/models/station_search.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
+        <td>8</td>
         <td>5</td>
         <td>5</td>
         <td>0</td>
@@ -245,7 +245,7 @@
       <tr>
         <td class="strong"><a href="#65f4a72198783a8d46827fa1a8d19d5047ea28b1" class="src_link" title="app/models/station_search.rb">app/models/station_search.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
+        <td>8</td>
         <td>5</td>
         <td>5</td>
         <td>0</td>
@@ -635,25 +635,31 @@
           <code class="ruby">    conn = Faraday.new(url: ENV[&#39;ROOT_URL&#39;])</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="4">
           
-          <code class="ruby">    response = JSON.parse(conn.get(&quot;/api/alt-fuel-stations/v1.json?zip=80203&amp;api_key=#{ENV[&quot;API_KEY&quot;]}&quot;).body, symbolize_names: true)</code>
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
+          <code class="ruby">    results = JSON.parse(conn.get(&quot;/api/alt-fuel-stations/v1.json?zip=80203&amp;api_key=#{ENV[&quot;API_KEY&quot;]}&quot;).body, symbolize_names: true)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
           <code class="ruby">    require &quot;pry&quot;; binding.pry</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">end</code>
