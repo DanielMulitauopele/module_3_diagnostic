@@ -1,5 +1,5 @@
 class SearchController < ApplicationController
   def index
-    @searchresults = StationSearch.new
+    @search_results = StationSearch.new.stations
   end
 end

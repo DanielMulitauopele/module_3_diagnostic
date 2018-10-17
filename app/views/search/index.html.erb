@@ -1,7 +1,7 @@
-<h3><%= @searchresults.stations.count %> Results</h3>
+<h3><%= @search_results.stations.count %> Results</h3>
 
 <div class="station">
-  <% @searchresults.stations.each do |station| %>
+  <% @search_results.stations.each do |station| %>
     <ul>
       <li class: "name"><%= station.name %></li>
       <li class: "address"><%= station.address %></li>
